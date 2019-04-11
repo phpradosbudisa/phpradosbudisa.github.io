@@ -1,0 +1,9 @@
+.portfolio-block.cv .group .organization {
+  font-size: .85em;
+  background-color: #0ea0ff;
+  display: inline-block;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 2em;
+}
+
