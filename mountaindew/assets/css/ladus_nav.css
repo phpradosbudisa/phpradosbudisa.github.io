@@ -1,0 +1,68 @@
+.nav > li > a:focus, .nav > li > a {
+  text-decoration: none;
+  margin: 0;
+  line-height: normal;
+  border: none;
+  border-bottom: solid 5px gray;
+}
+
+.nav > li > a:focus, .nav > li > a {
+  text-decoration: none;
+  margin: 0;
+  line-height: normal;
+  border: none;
+}
+
+.navbar-light .navbar-brand {
+  width: 130px;
+  height: 20px;
+}
+
+#navcol-1 {
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #222;
+  padding: 10px;
+}
+
+@media (min-width: 992px) {
+  #hero {
+    height: inherit;
+    padding: 1em 4em;
+  }
+}
+
+#hero {
+  height: 100vh;
+  background-color: #000000;
+}
+
+#feed {
+  background-color: #000000;
+  height: inherit;
+}
+
+@media (min-width: 992px) {
+  #car {
+    height: 100vh;
+    padding: 4em 4em;
+  }
+}
+
+#white {
+  background: rgba(0,0,0,0);
+  border: 3px solid rgba(0,255,10,0.9);
+  padding: 9px 20px;
+}
+
+#green-full {
+  background: rgba(0,0,0,0);
+  border: 3px solid rgba(0,255,10,0.9);
+  padding: 9px 45px;
+}
+

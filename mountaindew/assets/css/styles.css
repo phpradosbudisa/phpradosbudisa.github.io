@@ -1,0 +1,17 @@
+.bg-dark {
+  background-color: #000!important;
+}
+
+@media (min-width: 992px) {
+  # {
+    height: 100vh;
+    padding: 1em 4em;
+  }
+}
+
+#car {
+  background-color: #000000;
+  height: inherit;
+  padding: 2em 0;
+}
+
