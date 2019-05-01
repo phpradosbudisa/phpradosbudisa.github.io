@@ -66,3 +66,7 @@
   padding: 9px 45px;
 }
 
+#selected {
+  border: 2px solid rgba(0,255,10,0.9);
+}
+
