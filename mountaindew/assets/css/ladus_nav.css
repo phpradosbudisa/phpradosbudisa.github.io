@@ -33,13 +33,15 @@
 @media (min-width: 992px) {
   #hero {
     height: inherit;
-    padding: 1em 4em;
+    padding: 3em 4em;
   }
 }
 
 #hero {
   height: 100vh;
   background-color: #000000;
+  padding: 2em 0;
+  margin: 2em 0;
 }
 
 #feed {
@@ -67,6 +69,5 @@
 }
 
 #selected {
-  border: 2px solid rgba(0,255,10,0.9);
 }
 
