@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Experien</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i&amp;subset=cyrillic,cyrillic-ext">
     <link rel="stylesheet" href="assets/css/styles.min.css">
@@ -33,19 +34,16 @@
     <section class="d-flex flex-row justify-content-center align-items-center align-content-center" id="home">
         <div class="container">
             <div class="row">
-                <div class="col d-flex justify-content-center align-content-center">
-                    <form class="search-form">
-                        <div class="input-group">
-                            <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-search"></i></span></div><input class="form-control" type="text" placeholder="I am looking for..">
-                            <div class="input-group-append"><button class="btn btn-light" type="button">Search </button></div>
-                        </div>
+                <div class="col d-flex flex-row justify-content-center align-items-center align-content-center">
+                    <form class="d-flex flex-row justify-content-center align-items-center align-content-center">
+                        <div class="form-group d-flex flex-row justify-content-center align-items-center align-content-center"><i class="fas fa-flag" id="search-icon"></i><input class="form-control" type="search" placeholder="Paris, France" style="width: 18em;padding-left: 1.5em;border-radius: 28px;"><i class="fa fa-search" id="search-icon"></i></div>
                     </form>
                 </div>
             </div>
         </div>
     </section>
     <section class="d-flex flex-column justify-content-center align-items-center align-content-center" id="destinations">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-7">
                     <div class="d-flex flex-column" id="destination-holder">
@@ -61,7 +59,7 @@
                 </div>
             </div>
         </div>
-        <div class="container" style="margin: 2em 0;">
+        <div class="container-fluid" style="margin: 2em 0;">
             <div class="row">
                 <div class="col-md-6 col-xl-4">
                     <div class="d-flex flex-column" id="destination-holder">
